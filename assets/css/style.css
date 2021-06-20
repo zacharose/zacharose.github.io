@@ -40,5 +40,34 @@ header nav ul li a {
     background-size: cover;
     background-position: center;
     position: relative;
-    
+}
+
+.hero h2 {
+    font-size: 35px;
+    text-align: center;
+    color: #FF7F11;
+}
+
+.bio {
+
+}
+
+.work {
+
+}
+
+.contact {
+
+}
+
+.line-break {
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+
+}
+
+.primary-border {
+    border-color: #9FC36E;
 }
