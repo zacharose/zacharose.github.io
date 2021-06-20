@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #30362F;
+}
+
 header {
     color: #FF7F11;
     background-color: #30362F;
@@ -29,6 +33,13 @@ header nav ul li a {
     font-size: 26px;
 }
 
+footer {
+    background: #30362F;
+    font-size: 26px;
+    text-align: center;
+    color: #FF7F11;
+}
+
 .bio-photo {
     width: 200px;
     height: 200px;
@@ -49,15 +60,22 @@ header nav ul li a {
 }
 
 .bio {
-
+    background-color: #30362F;
+    color: #FFFBFC;
 }
 
 .work {
+    background-color: #30362F;
+    color: #FFFBFC;
+}
 
+.work a {
+    color: #FFFBFC;
 }
 
 .contact {
-
+    background-color: #30362F;
+    color: #FFFBFC;
 }
 
 .line-break {
@@ -65,9 +83,9 @@ header nav ul li a {
     padding: 0 100px 20px 100px;
     display: inline-block;
     border-bottom: 3px solid;
-
-}
-
-.primary-border {
     border-color: #9FC36E;
 }
+
+/* .primary-border { 
+    border-color: #9FC36E;
+}*/
