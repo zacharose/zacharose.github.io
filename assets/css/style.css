@@ -79,7 +79,7 @@ footer {
 }
 
 .hero {
-    background-image: url(/zacharose.github.io/assets/images/laptop.jpeg);
+    background-image: url(../images/laptop.jpeg);
     height: 150px;
     background-size: cover;
     background-position: center;
@@ -133,7 +133,7 @@ footer {
     height: 150px;
     border: solid 1px #FF7F11;
     background-color: #30362F;
-    background-image: url(/zacharose.github.io/assets/images/001-version2-mock-up-main.png);
+    background-image: url(../images/001-version2-mock-up-main.png);
     
 }
 
@@ -144,7 +144,7 @@ footer {
     height: 150px;
     border: solid 1px #FF7F11;
     background-color: #30362F;
-    background-image: url(/zacharose.github.io/assets/images/01-html-css-git-homework-demo.png);
+    background-image: url(../images/01-html-css-git-homework-demo.png);
 }
 
 .work a {
