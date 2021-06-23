@@ -14,6 +14,16 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-image: url(../images/laptop.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
     
 }
 
@@ -73,17 +83,16 @@ footer {
     
 }
 
-.bio-photo {
-    width: 200px;
-    height: 200px;
-}
+
 
 .hero {
     background-image: url(../images/laptop.jpeg);
-    height: 150px;
+    height: 300px;
     background-size: cover;
     background-position: center;
     position: relative;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 .hero h2 {
@@ -93,25 +102,43 @@ footer {
     
 }
 
-.content {
+/*.content {
     width: 99%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     list-style: none;
-}
+}*/
 
 .bio {
     background-color: #30362F;
     color: #FFFBFC;
     border: solid 3px #058C42;
-    
+    border-radius: 5px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .bio h3 {
     color: #FF7F11;
     font-size: 26px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bio-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+}
+
+.bio p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: ;
 }
 
 .work {
