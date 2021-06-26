@@ -97,11 +97,12 @@ footer {
     background-attachment: fixed;
     background-position: 80%;
     height: 30%;
+    margin-bottom: 5%;
 }
 
 /* about section */
 .container-about {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
@@ -111,52 +112,45 @@ footer {
 .container-about h2 {
     font-size: xxx-large;
     color: var(--4);
-    
+    align-self: center;
+    padding: 5%;
+    border-right: solid 1px 
 }
 
 .container-about img {
     max-width: 150px;
     max-height: 150px;
-    
-   
+    padding: 1%;
+    align-self: center;
+    border-radius: 10%;
 }
 
 .container-about p {
-    flex: 6; 
-}
-
-.container-about img p {
-    border: solid 3px var(--4);
-    border-radius: 2px;
+    flex: 5;
+    padding: 2%; 
+    align-self: center;
 }
 
 /* work section */
 .container-work {
-    flex: 1 0 auto;
-    height: 25%;
-}
-
-.work{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start space-around;
 }
 
-.work h2 {
+.container-work h2 {
     color: var(--4);
     font-size: xxx-large;
 }
 
 .work-1 {
     background-image: url(../images/run-buddy.png);
-    width: 50%;
-    height: auto;
     list-style: none;
 }
 
 .work-2 {
     background-image: url(../images/horiseon.png);
-    width: 50%;
-    height: auto;
     list-style: none;
 }
 
@@ -166,7 +160,7 @@ footer {
     height: 20%;
 }
 
-.row-contact {
+.container-contact {
 
 }
 
