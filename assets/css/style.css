@@ -5,11 +5,11 @@
 }
 
 :root {
-    --1: #40434E;
-    --2: #0E3343;
-    --3: #FFFFFA;
-    --4: #97CC04;
-    --5: #D78F09;
+    --color-1: #40434E;
+    --color-2: #0E3343;
+    --color-3: #FFFFFA;
+    --color-4: #97CC04;
+    --color-5: #D78F09;
 }
 
 html, body {
@@ -17,16 +17,16 @@ html, body {
 }
 
 body {
-    background-color: var(--1);
-    color: var(--3);
+    background-color: var(--color-1);
+    color: var(--color-3);
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
 header {
-    color: var(--4);
-    background-color: var(--2);
+    color: var(--color-4);
+    background-color: var(--color-2);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -47,7 +47,7 @@ header {
 
 header h1 {
     text-decoration: none;
-    color: var(--4);
+    color: var(--color-4);
     font-weight: bold;
     font-size: xx-large;
     margin: 0;
@@ -57,7 +57,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: var(--4);
+    color: var(--color-4);
    
 }
 
@@ -74,7 +74,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    color: var(--5);
+    color: var(--color-5);
     text-decoration: none;
     font-size: 26px;
     margin: 0 30px;
@@ -83,8 +83,8 @@ header nav ul li a {
 
 /* footer */
 footer {
-    color: var(--4);
-    background-color: var(--2);
+    color: var(--color-4);
+    background-color: var(--color-2);
     display: flex;
     flex-wrap: wrap;
     margin-top: auto;
@@ -102,7 +102,7 @@ footer {
     height: 50%;
     min-height: 30vw;
     margin-bottom: 5%;
-    border-bottom: solid 1px var(--5);
+    border-bottom: solid 1px var(--color-5);
 }
 
 /* about section */
@@ -110,14 +110,14 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: flex-start space-around;
+    justify-content: space-around;
     overflow:;
     
 }
 
 .container-about h2 {
     font-size: 3em;
-    color: var(--4);
+    color: var(--color-4);
     align-self: center;
     padding: 5%;
     border-right: solid 1px 
@@ -141,32 +141,41 @@ footer {
 .container-work {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start space-around;
+    justify-content: space-between;
+    width: 100%;
 }
 
-.container-work h2 {
-    color: var(--4);
-    font-size: 3em;
-    align-self: center;
-    border-right: solid 1px;
-    padding: 5.5%;
-    margin-right: auto;
-}
 
-.container-work ul {
-    display: inline-flex;
+
+
+.container-work-img {
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    padding: 2%;
-    
+    /*width: 80%;*/
+    justify-content: space-around;
+    width: 80%;
+}
 
+.container-work-1 {
+    width: 25%;
+    border-right: 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.container-work-1 h2 {
+    color: var(--color-4);
+    font-size: 3em;
+    align-self: center;
 }
 
 .work-1 {
     background-image: url(../images/run-buddy.png);
     list-style: none;
-    display: block;
-    width: 150px;
+    width: 40%;
     height: 150px;
     position: relative;
     opacity: 1;
@@ -177,14 +186,14 @@ footer {
     opacity: 0.3;
 }
 
+
 .work-2 {
     background-image: url(../images/horiseon.png);
     list-style: none;
-    display: block;
-    width: 150px;
+    width: 40%;
     height: 150px;
-    position: relative;
     opacity: 1;
+    position: relative;
 }
 
 .work-2:hover {
@@ -202,8 +211,8 @@ footer {
 
 }
 
-.container-contact h3 {
-    color: var(--4);
+.container-contact h2 {
+    color: var(--color-4);
     font-size: 3em;
     padding: 3.6%;
     align-self: center;
@@ -233,13 +242,13 @@ footer {
 
 .container-contact ul li {
     padding: 5%;
-    color: var(--5);
+    color: var(--color-5);
     list-style: none;
     
 }
 
 .container-contact ul li a {
-    color: var(--5);
+    color: var(--color-5);
     
    
     
