@@ -81,6 +81,15 @@ header nav ul li a {
     border-bottom: solid 1px;
 }
 
+h2 {
+    border-right: solid;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+
 /* footer */
 footer {
     color: var(--color-4);
@@ -110,30 +119,34 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
-    overflow:;
-    
+    justify-content: space-between;
+    width: 100%;
+    align-content: space-around;
 }
 
 .container-about h2 {
     font-size: 3em;
     color: var(--color-4);
     align-self: center;
-    padding: 5%;
-    border-right: solid 1px 
+    
+}
+
+.container-bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
 }
 
 .container-about img {
-    max-width: 150px;
+    max-width: auto;
     max-height: 150px;
-    padding: 1%;
     align-self: center;
     border-radius: 10%;
 }
 
 .container-about p {
     flex: 5;
-    padding: 2%; 
     align-self: center;
 }
 
@@ -152,15 +165,13 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /*width: 80%;*/
     justify-content: space-around;
     width: 80%;
 }
 
 .container-work-1 {
     width: 25%;
-    border-right: 1px solid;
-    display: flex;
+   display: flex;
     flex-direction: row;
     justify-content: center;
     
@@ -214,11 +225,9 @@ footer {
 .container-contact h2 {
     color: var(--color-4);
     font-size: 3em;
-    padding: 3.6%;
     align-self: center;
     justify-content: space-around;
-    border-right: solid 1px;
-    margin-right: auto;
+  
     
 }
 
@@ -226,7 +235,6 @@ footer {
     display: inline-flex;
     align-self: center;
     justify-content: space-around;
-    padding: 2%;
     margin: auto;
 }
 
