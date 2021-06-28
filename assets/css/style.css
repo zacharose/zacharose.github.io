@@ -63,6 +63,7 @@ header a {
 
 header nav {
     margin: 7px 0;
+    
 }
 
 header nav ul {
@@ -81,16 +82,17 @@ header nav ul li a {
     border-bottom: solid 1px;
 }
 
-h2 {
-    border-right: solid;
-    display: flex;
-    flex-direction: column;
-    
-    
-
+/* applies to all section html elements */
+section {
+    margin: 16px 0;
 }
 
-/* footer */
+/* applies to all h2 html elements */
+h2 {
+    padding-right: 24px;
+}
+
+/* applies to footer html element */
 footer {
     color: var(--color-4);
     background-color: var(--color-2);
@@ -114,6 +116,14 @@ footer {
     border-bottom: solid 1px var(--color-5);
 }
 
+/* h2 html elements */
+.h2 {
+    border-right: solid .2vw #97CC04;
+    width: 20%;
+    align-items: center;
+    display: flex;
+}
+
 /* about section */
 .container-about {
     display: flex;
@@ -128,6 +138,7 @@ footer {
     font-size: 3em;
     color: var(--color-4);
     align-self: center;
+    justify-content: space-between;
     
 }
 
@@ -138,16 +149,17 @@ footer {
     width: 80%;
 }
 
-.container-about img {
+.container-bio img {
     max-width: auto;
     max-height: 150px;
-    align-self: center;
     border-radius: 10%;
+    padding: 1%;
 }
 
 .container-about p {
     flex: 5;
     align-self: center;
+    padding: 20px;
 }
 
 /* work section */
@@ -157,9 +169,6 @@ footer {
     justify-content: space-between;
     width: 100%;
 }
-
-
-
 
 .container-work-img {
     display: flex;
@@ -171,13 +180,13 @@ footer {
 
 .container-work-1 {
     width: 25%;
-   display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     
 }
 
-.container-work-1 h2 {
+.container-work h2 {
     color: var(--color-4);
     font-size: 3em;
     align-self: center;
