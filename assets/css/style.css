@@ -12,7 +12,8 @@
     --color-5: #D78F09;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -39,10 +40,7 @@ header {
     background-attachment: fixed;
     background-position: 80%;
     z-index: 9999;
-    max-height: 15vw;
-    
-    
-    
+    max-height: 15vh;
 }
 
 header h1 {
@@ -51,19 +49,15 @@ header h1 {
     font-weight: bold;
     font-size: xx-large;
     margin: 0;
-    
-    
 }
 
 header a {
     text-decoration: none;
     color: var(--color-4);
-   
 }
 
 header nav {
-    margin: 7px 0;
-    
+    /* margin: 7px 0; */
 }
 
 header nav ul {
@@ -77,22 +71,28 @@ header nav ul {
 header nav ul li a {
     color: var(--color-5);
     text-decoration: none;
-    font-size: 26px;
+    font-size: 1.5em;
     margin: 0 30px;
     border-bottom: solid 1px;
 }
 
+
 /* applies to all section html elements */
+
 section {
     margin: 16px 0;
 }
 
+
 /* applies to all h2 html elements */
+
 h2 {
     padding-right: 24px;
 }
 
+
 /* applies to footer html element */
+
 footer {
     color: var(--color-4);
     background-color: var(--color-2);
@@ -103,7 +103,9 @@ footer {
     width: 100%;
 }
 
+
 /* hero section */
+
 .hero {
     background-image: url(../images/laptop.jpeg);
     background-size: cover;
@@ -112,11 +114,12 @@ footer {
     background-position: 80%;
     height: 50%;
     min-height: 30vw;
-    margin-bottom: 5%;
     border-bottom: solid 1px var(--color-5);
 }
 
+
 /* h2 html elements */
+
 .h2 {
     border-right: solid .2vw #97CC04;
     width: 20%;
@@ -124,7 +127,9 @@ footer {
     display: flex;
 }
 
+
 /* about section */
+
 .container-about {
     display: flex;
     flex-wrap: wrap;
@@ -139,7 +144,6 @@ footer {
     color: var(--color-4);
     align-self: center;
     justify-content: space-between;
-    
 }
 
 .container-bio {
@@ -162,7 +166,9 @@ footer {
     padding: 20px;
 }
 
+
 /* work section */
+
 .container-work {
     display: flex;
     flex-direction: row;
@@ -183,7 +189,6 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
 }
 
 .container-work h2 {
@@ -199,13 +204,11 @@ footer {
     height: 150px;
     position: relative;
     opacity: 1;
-
 }
 
 .work-1:hover {
     opacity: 0.3;
 }
-
 
 .work-2 {
     background-image: url(../images/horiseon.png);
@@ -220,15 +223,15 @@ footer {
     opacity: 0.3;
 }
 
+
 /* contact section */
+
 .container-contact {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start space-around;
     align-content: center;
-    
-
 }
 
 .container-contact h2 {
@@ -236,17 +239,7 @@ footer {
     font-size: 3em;
     align-self: center;
     justify-content: space-around;
-  
-    
 }
-
-/* .container-contact p {
-    display: inline-flex;
-    align-self: center;
-    justify-content: space-around;
-    margin: auto;
-    width: 1%;
-} */
 
 .container-contact ul {
     display: flex;
@@ -255,27 +248,22 @@ footer {
     align-items: center;
     flex-wrap: nowrap;
     white-space: nowrap;
-    width: 80%;
-    
+    width: 60%;
 }
 
 .container-contact ul li {
     padding: 5%;
     color: var(--color-5);
     list-style: none;
-    
 }
 
 .container-contact ul li a {
     color: var(--color-5);
-    
-   
-    
 }
+
 
 /* media queries  */
+
 @media screen and (max-width 500px) {
     align-content: column;
-
 }
-
