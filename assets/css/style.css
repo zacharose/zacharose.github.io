@@ -240,20 +240,22 @@ footer {
     
 }
 
-.container-contact p {
+/* .container-contact p {
     display: inline-flex;
     align-self: center;
     justify-content: space-around;
     margin: auto;
-}
+    width: 1%;
+} */
 
 .container-contact ul {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-self: center;
+    justify-content: center;
+    align-items: center;
     flex-wrap: nowrap;
     white-space: nowrap;
+    width: 80%;
     
 }
 
