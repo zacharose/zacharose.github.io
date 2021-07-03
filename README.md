@@ -1,4 +1,5 @@
 # Zach Rose A Professional Portfolio
+![Website Screeenshot](./assets/images/website-screenshot.png)
  
 ## Purpose 
 A website detailing the professional accomplishments and competencies of the creator. 
@@ -7,7 +8,7 @@ A website detailing the professional accomplishments and competencies of the cre
 * HTML
 * CSS
  
-## Website
+## Website deployed at
 https://zacharose.github.io
  
 ## Contribution
