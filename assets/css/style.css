@@ -167,21 +167,8 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-}
-
-.container-work-img {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 80%;
-}
-
-.container-work-1 {
-    width: 25%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    
+    
 }
 
 .container-work h2 {
@@ -190,13 +177,34 @@ footer {
     align-self: center;
 }
 
+.container-work-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    
+    
+    
+    
+}
+
+.container-work-img a {
+    color: var(--color-2);
+    text-decoration: none;
+   
+
+}
+
+
+
 .work-1 {
     background-image: url(../images/run-buddy.png);
     list-style: none;
-    width: 40%;
-    height: auto;
+    width: 98%;
+    height: 20vh; 
     position: relative;
     opacity: 1;
+    margin-bottom: 0.5vh;
 }
 
 .work-1:hover {
@@ -206,13 +214,27 @@ footer {
 .work-2 {
     background-image: url(../images/horiseon.png);
     list-style: none;
-    width: 40%;
-    height: 150px;
+    width: 48%;
+    height: 16vh; 
     opacity: 1;
     position: relative;
 }
 
 .work-2:hover {
+    opacity: 0.3;
+}
+
+.work-3 {
+    background-image: url(../images/simple.png);
+    list-style: none;
+    width: 48%;
+    height: auto; 
+    position: relative;
+    background-position: center;
+    opacity: 1;
+}
+
+.work-3:hover {
     opacity: 0.3;
 }
 
